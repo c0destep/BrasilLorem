@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta name="keywords" content="Lorem" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Lorem" />
+    <meta name="author" content="Lorem" />
+    <link rel="shortcut icon" href="public/favicon/favicon-32x32.png" type="image/x-icon" sizes="32x32" />
+    <link rel="icon" href="public/favicon/favicon-192x192.png" type="image/x-icon" sizes="192x192" />
+    <title>Bem-vindo | Lorem</title>
+    <!-- JQuery 3.5.1 -->
+    <script src="public/js/jquery-3.5.1.min.js"></script>
+    <!-- Fomantic UI 2.8.7 -->
+    <link rel="stylesheet" href="public/css/semantic.min.css">
+    <script src="public/css/semantic.min.js"></script>
+    <!-- Style Custom -->
+    <link rel="stylesheet" href="public/css/custom.css">
+    <!-- Script Custom -->
+    <script src="public/js/custom.js"></script>
+</head>
+
+<body>
+    <!-- Menu de Navegção Lateral -->
+    <div class="ui vertical sidebar icon labeled menu theme">
+        <a class="item" href="index.html">
+            <i class="home icon"></i>
+            Início
+        </a>
+        <a class="item" href="#">
+            <i class="truck icon"></i>
+            Caminhôes
+        </a>
+        <a class="item" href="#">
+            <i class="dolly icon"></i>
+            Transportadoras
+        </a>
+        <a class="item" href="#">
+            <i class="bus icon"></i>
+            Ônibus
+        </a>
+        <a class="item" href="#">
+            <i class="bullhorn icon"></i>
+            Vagas
+        </a>
+        <a class="item" href="#">
+            <i class="info icon"></i>
+            Dicas
+        </a>
+        <a class="item" href="#">
+            <i class="phone icon"></i>
+            Contato
+        </a>
+        <a class="item" onclick="themedark();">
+            <i class="adjust icon"></i>
+            Mudar Tema
+        </a>
+    </div>
+
+    <div class="pusher">
+        <!-- Início # Menus -->
+        <div class="ui three item text menu theme">
+            <div class="ui fluid container">
+                <a class="item">
+                    <i class="icon large green sidebar menuteral"></i>
+                </a>
+                <div class="item header name site">
+                    Brasil do Trecho
+                </div>
+                <div class="ui category search item">
+                    <div class="ui transparent icon input theme">
+                        <input class="prompt" type="text" placeholder="Procurar...">
+                        <i class="icon large green search link"></i>
+                    </div>
+                    <div class="results"></div>
+                </div>
+                <a id="search-mobile" class="item">
+                    <i class="icon large green search link"></i>
+                </a>
+            </div>
+        </div>
+        <div class="ui nine item text menu theme">
+            <div class="ui container">
+                <a href="index.html" class="item">Início</a>
+                <a href="#" class="item">Caminhão</a>
+                <a href="#" class="item">Ônibus</a>
+                <a href="#" class="item">Implementos</a>
+                <a href="#" class="item">Caminhoneiro</a>
+                <a href="#" class="item">Estradas</a>
+                <a href="#" class="item">Dicas</a>
+                <a href="#" class="item">Vagas</a>
+                <a href="#" class="item">Contato</a>
+            </div>
+        </div>
+        <!-- Fim # Menus -->
+
+        <!-- Ínicio # Área do Conteúdo -->
+        <div class="ui container spaceconfort">
+            <!-- Ínicio # Notícia de Destaque -->
+            <div class="ui items stackable theme">
+                <div class="item">
+                    <div class="image">
+                        <img src="https://via.placeholder.com/720x405">
+                    </div>
+                    <div class="content">
+                        <h1 class="header"><a href="#">Contrata-se motorista na Ford</a></h1>
+                        <div class="meta">
+                            <span>1 Dia atrás por Pedrinho</span>
+                        </div>
+                        <div class="description">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur dolorum facilis
+                                consequuntur, praesentium delectus explicabo doloremque quo corrupti reiciendis hic!
+                                Impedit atque voluptas ea nisi repudiandae ullam provident minus cumque.
+                            </p>
+                        </div>
+                        <div class="extra">
+                            <a href="#">Vagas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim # Notícia de Destaque -->
+
+            <!-- Ínicio # Notícias -->
+            <div class="ui three link cards stackable spaceconfort theme">
+                <div class="card">
+                    <div class="image">
+                        <img src="https://via.placeholder.com/392x198">
+                    </div>
+                    <div class="content">
+                        <div class="header">Lorem Heat</div>
+                        <div class="meta">
+                            <span>Lorem</span>
+                        </div>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt eos quos facilis, unde,
+                            quam officiis veniam ipsa ducimus dolorum, cumque corrupti libero consequuntur amet expedita
+                            iste voluptates commodi eaque. Veritatis!
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <span>
+                            8 Horas atrás
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="https://via.placeholder.com/392x198">
+                    </div>
+                    <div class="content">
+                        <div class="header">Lorem Heat</div>
+                        <div class="meta">
+                            <span>Lorem</span>
+                        </div>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt eos quos facilis, unde,
+                            quam officiis veniam ipsa ducimus dolorum, cumque corrupti libero consequuntur amet expedita
+                            iste voluptates commodi eaque. Veritatis!
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <span>
+                            1 Dia atrás
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="https://via.placeholder.com/392x198">
+                    </div>
+                    <div class="content">
+                        <div class="header">Lorem Heat</div>
+                        <div class="meta">
+                            <span>Lorem</span>
+                        </div>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt eos quos facilis, unde,
+                            quam officiis veniam ipsa ducimus dolorum, cumque corrupti libero consequuntur amet expedita
+                            iste voluptates commodi eaque. Veritatis!
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <span>
+                            2 Dia atrás
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="https://via.placeholder.com/392x198">
+                    </div>
+                    <div class="content">
+                        <div class="header">Lorem Heat</div>
+                        <div class="meta">
+                            <span>Lorem</span>
+                        </div>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt eos quos facilis, unde,
+                            quam officiis veniam ipsa ducimus dolorum, cumque corrupti libero consequuntur amet expedita
+                            iste voluptates commodi eaque. Veritatis!
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <span>
+                            3 Dia atrás
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="https://via.placeholder.com/392x198">
+                    </div>
+                    <div class="content">
+                        <div class="header">Lorem Heat</div>
+                        <div class="meta">
+                            <span>Lorem</span>
+                        </div>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt eos quos facilis, unde,
+                            quam officiis veniam ipsa ducimus dolorum, cumque corrupti libero consequuntur amet expedita
+                            iste voluptates commodi eaque. Veritatis!
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <span>
+                            4 Dia atrás
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="https://via.placeholder.com/392x198">
+                    </div>
+                    <div class="content">
+                        <div class="header">Lorem Heat</div>
+                        <div class="meta">
+                            <span>Lorem</span>
+                        </div>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt eos quos facilis, unde,
+                            quam officiis veniam ipsa ducimus dolorum, cumque corrupti libero consequuntur amet expedita
+                            iste voluptates commodi eaque. Veritatis!
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <span>
+                            5 Dia atrás
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="https://via.placeholder.com/392x198">
+                    </div>
+                    <div class="content">
+                        <div class="header">Lorem Heat</div>
+                        <div class="meta">
+                            <span>Lorem</span>
+                        </div>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt eos quos facilis, unde,
+                            quam officiis veniam ipsa ducimus dolorum, cumque corrupti libero consequuntur amet expedita
+                            iste voluptates commodi eaque. Veritatis!
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <span>
+                            6 Dia atrás
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="https://via.placeholder.com/392x198">
+                    </div>
+                    <div class="content">
+                        <div class="header">Lorem Heat</div>
+                        <div class="meta">
+                            <span>Lorem</span>
+                        </div>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt eos quos facilis, unde,
+                            quam officiis veniam ipsa ducimus dolorum, cumque corrupti libero consequuntur amet expedita
+                            iste voluptates commodi eaque. Veritatis!
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <span>
+                            1 Semana atrás
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="https://via.placeholder.com/392x198">
+                    </div>
+                    <div class="content">
+                        <div class="header">Lorem Heat</div>
+                        <div class="meta">
+                            <span>Lorem</span>
+                        </div>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt eos quos facilis, unde,
+                            quam officiis veniam ipsa ducimus dolorum, cumque corrupti libero consequuntur amet expedita
+                            iste voluptates commodi eaque. Veritatis!
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <span>
+                            1 Mês atrás
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim # Notícias -->
+        </div>
+        <!-- Fim # Área do Conteúdo -->
+
+        <!-- Ínicio # Footer -->
+        <div class="ui container spaceconfort">
+            <div class="ui basic segment theme">
+                <h2 class="ui header theme">Contato</h2>
+                <div class="ui huge list  theme">
+                    <div class="item">
+                        <i class="users icon"></i>
+                        <div class="content">
+                            Fulano & Ciclano
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="marker icon"></i>
+                        <div class="content">
+                            Brazil, 72500-220
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="mail icon"></i>
+                        <div class="content">
+                            <a href="mailto:sac@gmail.com">sac@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="linkify icon"></i>
+                        <div class="content">
+                            <a href="https://www.lorem.com.br/">lorem.com.br</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ui basic segment center aligned theme">
+                <div class="ui huge relaxed horizontal list theme">
+                    <a class="item">Politica de Privacidade</a>
+                    <a class="item">Politica de Cookies</a>
+                    <a class="item">Sobre Nós</a>
+                    <a class="item">Contato</a>
+                </div>
+                <h4 class="ui header theme">Direitos reservados por Lorem</h4>
+            </div>
+        </div>
+        <!-- Fim # Footer -->
+    </div>
+</body>
+
+</html>

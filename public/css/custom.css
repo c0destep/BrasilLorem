@@ -1,0 +1,228 @@
+a {
+    color: rgba(0, 0, 0, .87);
+}
+
+a:hover {
+    color: #21ba45 !important;
+}
+
+.ui.items.inverted .item .content a:not(.ui) {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.ui.list.inverted .item a:not(.ui):hover {
+    color: #21ba45 !important;
+}
+
+.ui.list a.item {
+    color: rgba(0, 0, 0, .87) !important;
+}
+
+.ui.list a.item:hover {
+    color: #21ba45 !important;
+}
+
+.ui.list.inverted a.item {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.ui.list.inverted a.item:hover {
+    color: #21ba45 !important;
+}
+
+.name.site {
+    font-size: 2.5em !important;
+    font-family: 'Poppins', sans-serif;
+    color: #21ba45 !important;
+    text-shadow: -5px 7.5px 5px rgba(0, 0, 0, .5);
+}
+
+.ui.three.menu .item:first-child {
+    width: 20%;
+}
+
+.ui.three.menu .item:nth-child(2) {
+    width: 60%;
+}
+
+.ui.three.menu .item:nth-child(3) {
+    width: 20%;
+}
+
+.ui.three.menu .item:last-child {
+    width: 20%;
+}
+
+.ui.search .icon.search {
+    margin-right: .75em !important;
+}
+
+.spaceconfort {
+    padding: 2em 0;
+}
+
+.ui.items .image {
+    width: 56.25% !important;
+}
+
+.ui.items .header {
+    margin-top: .5em !important;
+    font-size: 2.75em !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.ui.items .meta {
+    font-size: 1.15em !important;
+}
+
+.ui.items .description {
+    font-size: 1.25em !important;
+}
+
+.ui.items .extra a {
+    font-size: 1.15em !important;
+    color: rgba(0, 0, 0, .4);
+}
+
+@media (max-width: 374.98px) {
+    .name.site {
+        font-size: 1.25em !important;
+    }
+
+    .ui.category.search {
+        display: none !important;
+    }
+
+    .spaceconfort {
+        padding: .75em 0;
+    }
+
+    .ui.items .header {
+        margin-top: 0 !important;
+        font-size: 1.75em !important;
+    }
+
+    .ui.items .meta {
+        font-size: 1em !important;
+    }
+
+    .ui.items .description {
+        font-size: 1.1em !important;
+    }
+
+    .ui.items .extra a {
+        font-size: 1em !important;
+    }
+
+    #search-mobile {
+        display: block !important;
+    }
+
+    .ui.nine.menu {
+        display: none;
+    }
+
+    .ui.segment.center.aligned .ui.list .item {
+        margin: auto .5em !important;
+        padding: .5em !important;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 479.98px) {
+    .name.site {
+        font-size: 1.75em !important;
+    }
+
+    .ui.category.search {
+        display: none !important;
+    }
+
+    .spaceconfort {
+        padding: 1em 0;
+    }
+
+    .ui.items .header {
+        margin-top: 0 !important;
+        font-size: 2em !important;
+    }
+
+    .ui.items .description {
+        font-size: 1.1em !important;
+    }
+
+    .ui.items .extra a {
+        font-size: 1em !important;
+    }
+
+    #search-mobile {
+        display: block !important;
+    }
+
+    .ui.nine.menu {
+        display: none;
+    }
+
+    .ui.segment.center.aligned .ui.list .item {
+        margin: auto 1em !important;
+        padding: .75em !important;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 719.98px) {
+    .name.site {
+        font-size: 2em !important;
+    }
+
+    .ui.items .header {
+        margin-top: 0 !important;
+        font-size: 1.5em !important;
+    }
+
+    .ui.items .description {
+        font-size: 1em !important;
+    }
+
+    .ui.items .extra a {
+        font-size: 1em !important;
+    }
+
+    #search-mobile {
+        display: none;
+    }
+
+    .ui.nine.menu {
+        display: none;
+    }
+
+    .ui.segment.center.aligned .ui.list .item {
+        margin: auto 1em !important;
+        padding: .75em !important;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 1023.98px) {
+    .name.site {
+        font-size: 2.5em !important;
+    }
+
+    .ui.items .header {
+        margin-top: 0 !important;
+        font-size: 1.5em !important;
+    }
+
+    .ui.items .description {
+        font-size: 1.1em !important;
+    }
+
+    .ui.items .extra a {
+        font-size: 1em !important;
+    }
+
+    #search-mobile {
+        display: none;
+    }
+
+    .ui.nine.menu {
+        display: none;
+    }
+}
